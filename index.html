@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>GRAVITY</title>
+        
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="style.css"> 
+        <style>
+
+/*  player*/
+.wrap{
+    background: #eef3f7;
+    width: 410px;
+    min-height: 480px;
+    box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+    border-radius: 15px;
+    padding: 30px;
+}
+@media screen and (max-width: 650px), (max-height: 500px) {
+  #player-wrap{
+    margin-left: 82px;
+  }
+
+}
+.fa-heart:hover{
+color: red;
+}
+.play-pause{
+  margin-top:30px ;
+}
+
+
+      </style>
+    </head>
+    <body>
+
+        <div class="topnav">
+            <a href="#music">Trending</a>
+            <a href="#footer">Contact</a>
+            <a href="#container">My Music</a>
+            <a href="#login" style="text-align: right;">Login</a>
+          </div>
+          <div id="gravity">
+         <div id='stars'></div>
+          <div id='stars2'></div>
+          <div id='stars3'></div>
+          <div id='title'>
+            GRAVITY
+          </div>
+          <div id='subtitle'>
+            <span>FEEL</span>
+            <span>IT</span>
+            <span>BY THE WAY</span>
+          </div>
+          </div>
+          <!--mouse scroll-->
+          <div class="mouse"></div>
+            
+        <div id="music">
+            <h1>Trending Music</h1>
+           
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+              <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+              <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+              <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+              <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif"><br>
+              <img src="1.webp">
+          </div>
+          <div id="container">
+            <h1>Listen to our Music</h1>
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669" onclick="play()">
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif">
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif">
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif">
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif">
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif">
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif"> 
+            <img src="https://i.imgur.com/pCH1rZe.jpg">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/A_Moment_Alone_Cover.jpg">
+            <img src="https://imgix.ranker.com/node_img/41/816069/original/dark-side-of-the-moon-albums-photo-1?w=650&q=50&fm=pjpg&fit=crop&crop=faces">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/056/294/b21.gif">
+          </div>
+          <div id="footer">
+           <img src="logo.webp" style="float:right;padding-right: 30px;"><img src="log1.png" style="float: left;"><br>
+           <p>Get Touch:</p>
+          <a href="#" ><i class="fa fa-whatsapp"></i>+91-8328132272</a><br>
+          <a href="mailto:gagankarthik123@gmail.com"><i class="fa fa-envelope"></i>gagankarthik123@gmail.com</a><br>
+          <a href="#" ><i class="fa fa-phone"></i>+91-8328132272</a><hr style="width: 300px;">
+             <p>FOLLOW US :</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-apple"></i>
+            <i class="fa fa-whatsapp"></i><br>
+            <i class="fa fa-bug"></i>Report bug?<hr style="width: 30px;">
+            <i class="fa fa-copyright"></i>
+
+         </div>
+         <div id="player-wrap">
+           <div class="player-cover">
+            <img src="https://peopledotcom.files.wordpress.com/2019/06/taylor-swift-lover.jpg?w=669" class="cover">
+            <div class="song-name">
+              <p>Lover</p>
+              <div class="song-singer">
+                <p>Taylorswift-album</p>
+              </div>
+              <div class="like">
+              <i class="fa fa-heart" onclick="like()" id="like" style="margin-top: -60px; margin-left: 100px;"></i>
+              </div>
+            </div>
+           </div>
+           <div id="controls">
+            <i class="fa fa-random" style="color: white;"></i>
+            <i class="fa fa-step-backward" style="color: white;"></i>
+          
+          <i class="fa fa-play-circle" style="color: red;font-size: 50px;" onclick="play()" id="play"></i>
+          <i class="fa fa-pause-circle" style="color: red;font-size: 50px;" id="pause" onclick="pause()"></i>
+          
+          <i class="fa fa-step-forward" style="color: white;"></i>
+          <i class="fa fa-repeat" style="color: white;"></i>
+        </div>
+        <div class="song-list">
+         <i class="fa fa-volume-down" style="color: white;"></i>
+         <i class="fa fa-bars" style="color: white;"></i>
+         
+            
+        </div>
+          <input type="range"  min="1" max="100" value="0" class="slider">
+         </div>
+         <audio id="music" loop="loop" src="https://web.opendrive.com/api/v1/download/file.json/OV84MDUyNTM1NF9aSXB6Sw?inline=1"></audio>
+
+         
+    </body>
+    <script>
+      function like(){
+        document.getElementById("like").style.color="red";
+      }
+      
+      function play(){
+        document.getElementById("play").style.display="none";
+        document.getElementById("pause").style.display="block";
+      }
+      function pause(){
+        document.getElementById("pause").style.display="none";
+        document.getElementById("play").style.display="block";
+      }
+      
+
+
+    </script>
+</html>
